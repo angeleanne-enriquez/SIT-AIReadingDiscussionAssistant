@@ -9,5 +9,7 @@ This project aims to assist online learning by having an AI tool generate text s
 3. Replace the API key with your own.
 4. Open the Python program and look throughout the program to learn how to use the other features.
 
-## Challenges
+## Challenges and Limitations
 A huge challenge for this project was ensuring Claude's API would give consisently good results. Initially, I had difficulty with the program timing out or giving incomplete summaries/discussions. I solved this issue by refining my prompt engineering, keeping the instructions for the AI detailed but concise. 
+
+This program cannot handle extremely large PDFs. For instance, it will have difficulty generating a complete discussion for the entirety of the tennis case study uploaded here. However, breaking it down by chapter and uploading such will have better results. 
